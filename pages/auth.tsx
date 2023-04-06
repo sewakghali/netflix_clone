@@ -23,7 +23,7 @@ const Auth = () => {
         callbackUrl: '/profiles'
       })
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   }, [email, password])
 
@@ -34,7 +34,7 @@ const Auth = () => {
       })
       login();
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   }, [email, name, password, login])
 
@@ -44,7 +44,7 @@ const Auth = () => {
         <nav className="px-12 py-5">
           <img src="/images/logo.png" alt="Logo" className="h-12" />
           <div className="flex justify-center">
-            <div className="bg-black/70 px-16 py-16 self-center mt-2 lg:w-2/5 lg:max-w-md rounded-md w-full">
+            <div className="bg-black/70 px-0 md:px-16 py-16 self-center mt-2 lg:w-2/5 lg:max-w-md rounded-md w-full">
               <h2 className="text-white text-4xl mb-8 font-semibold">
                 {variant == 'login' ? 'Sign in' : 'Join the party'}
               </h2>
