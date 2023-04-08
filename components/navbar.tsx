@@ -41,8 +41,8 @@ const Navbar = ()=>{
         <img className="h-4 lg:h-7" src="images/logo.png" alt="logo" />
         <div className="flex-row ml-8 gap-7 hidden lg:flex">
           <NavbarItem href="/" label="Home"/>
-          <NavbarItem href="/watch/series" label='Series'/>
-          <NavbarItem  href="/" label='Films'/>
+          <NavbarItem href="/series" label='Series'/>
+          <NavbarItem  href="/newMovies" label='Films'/>
           <NavbarItem href="/" label='New & Popular'/>
           <NavbarItem href="/"label='My List'/>
           <NavbarItem href="/" label='Browse by language'/>

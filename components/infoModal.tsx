@@ -34,11 +34,11 @@ const InfoModal:React.FC<InfoModalProps> = ({visible, onClose})=>{
         <div className={`${isVisible? 'scale-100': 'scale-0'} transform duration-300 relative flex-auto bg-zinc-900 drop-shadow-md`}>
           <div className="relative h-96">
             <video autoPlay muted loop className="w-full brightness-[60%] object-cover h-full" poster={data?.thumbnailUrl} src={data?.videoUrl}></video>
-            <div onClick={handleClose} className='cursor-pointer absolute top-3 right-3 h-10 w-10 rounded-md bg-black/70 flex items-center justify-center'>
+            <div onClick={handleClose} className='cursor-pointer absolute z-10 top-3 right-3 h-10 w-10 rounded-md bg-black/70 flex items-center justify-center'>
               <AiOutlineClose className="text-white" size={25}/>
             </div>
             <div className="absolute bottom-[10%] left-10">
-              <p className="text-white text-3xl md:text-4xl h-full lg:text-5xl font-bold mb-8">
+              <p className="text-white text-xl md:text-3xl lg:text-4xl font-bold mb-8">
               {data?.title}
               </p>
               <div className="flex flex-row gap-4 items-center">

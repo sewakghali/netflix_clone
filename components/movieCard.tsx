@@ -13,7 +13,7 @@ const MovieCard: React.FC<MovieCardProps> = ({data})=>{
   const {openModal} = useInfoModal();
   return(
     <div className='group bg-zinc-900 col-span relative h-[12vw]'>
-      <div className='text-white bg-zinc-800 rounded-md'>
+      <div className='text-white bg-zinc-800 rounded'>
       <img className='rounded-md cursor-pointer transition object-cover shadow-xl duration group-hover:opacity-90 sm:group-hover:opacity-0 delay-300 w-full h-[12vw]' src={data?.thumbnailUrl} alt="thumbnail" />
           <p className='p-1 m-1'>
             {data?.title}
