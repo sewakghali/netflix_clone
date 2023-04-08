@@ -12,7 +12,7 @@ const MovieCard: React.FC<MovieCardProps> = ({data})=>{
   const router = useRouter();
   const {openModal} = useInfoModal();
   return(
-    <div className='group bg-zinc-900 col-span relative h-[12vw]'>
+    <div className='group bg-zinc-900 relative'>
       <div className='text-white bg-zinc-800 rounded'>
       <img className='rounded-md cursor-pointer transition object-cover shadow-xl duration group-hover:opacity-90 sm:group-hover:opacity-0 delay-300 w-full h-[12vw]' src={data?.thumbnailUrl} alt="thumbnail" />
           <p className='p-1 m-1'>
@@ -20,7 +20,7 @@ const MovieCard: React.FC<MovieCardProps> = ({data})=>{
           </p>
         </div>
 
-      <div className='opacity-0 absolute top-0 transition duration-200 z-10 invisible sm:visible delay-300 w-full scale-0 group-hover:scale-110 group-hover:-translate-y-[6vw] group-hover:translate-x-[2vw] group-hover:opacity-100'>
+      <div className='opacity-0 absolute top-0 transition duration-200 z-10 invisible sm:visible delay-300 w-full scale-0 group-hover:scale-110 group-hover:-translate-y-[6vw] group-hover: group-hover:opacity-100'>
         <img className='cursor-pointer object-cover transition duration rounded-t-md shadow-xl w-full h-[12vw]' src={data?.thumbnailUrl} alt="thumbnail" />
         <div className='bg-zinc-800 z-10 p-2 lg:p-4 absolute w-full transition shadow-md rounded-b-md'>
           <div className='flex flex-row items-center gap-3'>

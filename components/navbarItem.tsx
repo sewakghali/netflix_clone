@@ -1,5 +1,5 @@
-import { useRouter } from 'next/router';
 import React from 'react';
+import Link from "next/link";
 
 interface NavbarItemProps{
   label: string,
@@ -9,11 +9,12 @@ interface NavbarItemProps{
 const NavbarItem: React.FC<NavbarItemProps> = ({
   label, href
 })=>{
-  const router = useRouter();
   return(
-    <div onClick={()=>{router.push(href)}} className="text-white cursor-pointer hover:text-gray-300 transition">
+    <Link passHref legacyBehavior href={href}>
+    <div className="text-white cursor-pointer hover:text-gray-300 transition">
       {label}
     </div>
+    </Link>
   )
 }
 

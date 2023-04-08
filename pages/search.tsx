@@ -3,8 +3,6 @@ import Navbar from '@/components/navbar';
 import MovieCard from '@/components/movieCard';
 import useMovieList from '@/hooks/useMovieList';
 import { useRouter } from 'next/router';
-import axios from 'axios';
-import Error from 'next/error';
 import useSearch from '@/hooks/useSearch';
 
 import { NextPageContext } from 'next';

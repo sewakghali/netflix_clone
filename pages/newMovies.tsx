@@ -30,7 +30,7 @@ const NewMovies = ()=>{
     <br />
     <br />
     <div className="pb-40">
-      <MovieList data={movies} title={`Trending Now`}/>
+      <MovieList data={movies} title={``}/>
     </div>
     </>
   )

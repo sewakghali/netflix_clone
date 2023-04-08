@@ -4,12 +4,11 @@ import MobileMenu from "./mobileMenu";
 import AccountMenu from "./accountMenu";
 import {useState, useCallback, useEffect} from 'react'
 import useCurrentUser from "@/hooks/useCurrentUser";
-import { useRouter } from "next/router";
+import Link from "next/link";
 
 const TOP_OFFSET = 65;
 
 const Navbar = ()=>{
-  const router = useRouter();
   const {data: user} = useCurrentUser();
   const [showBg, setShowBg] = useState(false);
   const [showMobMenu, setShowMobMenu] = useState(false);
@@ -42,10 +41,10 @@ const Navbar = ()=>{
         <div className="flex-row ml-8 gap-7 hidden lg:flex">
           <NavbarItem href="/" label="Home"/>
           <NavbarItem href="/series" label='Series'/>
-          <NavbarItem  href="/newMovies" label='Films'/>
-          <NavbarItem href="/" label='New & Popular'/>
-          <NavbarItem href="/"label='My List'/>
-          <NavbarItem href="/" label='Browse by language'/>
+          <NavbarItem  href="/films" label='Films'/>
+          <NavbarItem href="/newMovies" label='New & Popular'/>
+          <NavbarItem href="/myList"label='My List'/>
+          <NavbarItem href="/language" label='Browse by language'/>
         </div>
         <div onClick={toggleMobMenu} className="lg:hidden flex flex-row items-center gap-2 ml-8 cursor-pointer relative">
           <p className="text-white text-sm">Browse</p>
@@ -54,12 +53,16 @@ const Navbar = ()=>{
         </div>
 
         <div className="flex flex-row ml-auto gap-7 items-center">
-          <div className="text-gray-200 hover:text-gray-300 cursor-pointer transition" onClick={()=>{router.push('/search')}}>
+          <Link href={'/search'} passHref legacyBehavior>
+          <div className="text-gray-200 hover:text-gray-300 cursor-pointer transition">
             <BsSearch/>
           </div>
+          </Link>
+          <Link href={'/alert'} passHref legacyBehavior>
           <div className="text-gray-200 hover:text-gray-300 cursor-pointer transition">
             <BsBell/>
           </div>
+          </Link>
 
           <div onClick={toggleAccMenu} className="flex flex-row items-center gap-2 cursor-pointer relative">
             <div className="w-6 h-6 lg:w-10 lg:h-10 rounded-md overflow-hidden">
