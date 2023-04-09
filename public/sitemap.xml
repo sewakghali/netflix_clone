@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://netflix-clone-sewakghali.vercel.app/auth</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>http://netflix-clone-gules-kappa.vercel.app/auth</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>http://netflix-clone-sewakghali.vercel.app/alert</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>http://netflix-clone-gules-kappa.vercel.app/alert</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>http://netflix-clone-sewakghali.vercel.app/films</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>http://netflix-clone-gules-kappa.vercel.app/films</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>http://netflix-clone-sewakghali.vercel.app/language</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>http://netflix-clone-gules-kappa.vercel.app/language</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>http://netflix-clone-sewakghali.vercel.app/</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>http://netflix-clone-gules-kappa.vercel.app/</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>http://netflix-clone-sewakghali.vercel.app/myList</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>http://netflix-clone-gules-kappa.vercel.app/myList</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>http://netflix-clone-sewakghali.vercel.app/newMovies</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>http://netflix-clone-gules-kappa.vercel.app/newMovies</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>http://netflix-clone-sewakghali.vercel.app/profiles</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>http://netflix-clone-gules-kappa.vercel.app/profiles</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>http://netflix-clone-sewakghali.vercel.app/search</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>http://netflix-clone-gules-kappa.vercel.app/search</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>http://netflix-clone-sewakghali.vercel.app/series</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>http://netflix-clone-gules-kappa.vercel.app/series</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>
