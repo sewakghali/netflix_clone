@@ -33,8 +33,8 @@ export default function Home() {
     <>
       <Head>
         <title>Netflix Clone</title>
-        <meta property="og:NetflixClone" content="Netflix Clone" key="Netflix Clone" />
         <meta name="google-site-verification" content="phtHwikeVzIrMdg5D5NBaHgbOGZzEnnzUldKWgTNw_g" />
+        <meta property="og:NetflixClone" content="Netflix Clone" key="Netflix Clone" />
       </Head>
 
       <InfoModal visible={isOpen} onClose={closeModal} />
